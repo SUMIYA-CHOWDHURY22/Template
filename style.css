@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: rgb(43, 41, 41);
+    height: 30px;
+    padding: 30px 60px;
+ 
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px; 
+   font-size: 20px;  
+}
+
+.navber ul li a:hover {
+    background-color:  rgb(129, 126, 126);
+    color: lightcoral;
+}
+
+.navber ul li{
+   list-style: none;
+   display: inline;
+   
+}
+.navber ul li:last-child{
+   float: right;
+   color: rgb(192, 170, 170);
+    
+}
+ .bg-image{ 
+    background-image: url('images/chicago.jpg');
+    background-size: cover;  
+   color: #fff;
+   align-items: center;
+   
+ }
+ .image{
+   padding-top: 400px;
+   padding-left: 700px;
+ }
+ h2{
+    line-height: 75px;
+    font-size: 35px;
+    
+ }
+ .image  p{
+ 
+   font-size: 20px;
+ }
+  /* 2nd part for band  */
+#The-band{
+    margin: 30px 50px 50px;
+    text-align: center;
+    display: flex;
+  }
+
+  .part-single{
+         padding: 10px 20px 30px;
+         color: #000;
+         column-gap: 20px;
+  }
+
+.part-single h2{
+   letter-spacing: 10px;
+}
+.part-single h4{
+  padding: 10px 0px 12px 0px;
+  opacity: 0.60;
+  font-style: italic;
+}
+.part-single p{
+ 
+    text-align: center!important;
+      font-size: 20px;
+      line-height: 1.5;
+ 
+    
+
+}
+
+   /* part-3 */
+#The-band2{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #272525;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.part-single2{
+   display: flex;
+   padding: 20px 30px;
+}
+.everypart{
+  margin: 20px 20px;
+  padding: 80px 120px;
+}
+.everypart h4{
+  font-size: 20px;
+text-align: center;
+ line-height: 70px;
+ letter-spacing: 4px;
+ font-style: oblique;
+
+}
+.everypart img {
+  height: 160px;
+  width: 150px;
+ }
+
+ /* TOUR DATES */
